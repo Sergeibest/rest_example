@@ -37,5 +37,4 @@ public class Client {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
 }
