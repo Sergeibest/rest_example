@@ -1,6 +1,18 @@
 package com.example.rest_example.service;
 
+import com.example.rest_example.model.Client;
+
+import java.util.List;
+
 public interface ClientService {
+    List<Client> readAll();
+
+    boolean update(Client client, int id);
+
+    Client read(int id);
+
+    boolean delete(int id);
+
     public interface ClientService {
 
         /**
