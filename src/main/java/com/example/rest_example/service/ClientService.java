@@ -13,6 +13,8 @@ public interface ClientService {
 
     boolean delete(int id);
 
+    void create(Client client);
+
     public interface ClientService {
 
         /**
