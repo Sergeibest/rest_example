@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class ClientServiceImpl {
     @Service
     public class ClientServiceImpl implements ClientService {
 
@@ -53,4 +52,3 @@ public class ClientServiceImpl {
             return CLIENT_REPOSITORY_MAP.remove(id) != null;
         }
     }
-}
