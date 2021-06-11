@@ -38,5 +38,7 @@ public interface ClientService {
      * @return - true если клиент был удален, иначе false
      */
     boolean delete(int id);
+
+    void create(com.example.rest_example.model.Client client);
 }
 
